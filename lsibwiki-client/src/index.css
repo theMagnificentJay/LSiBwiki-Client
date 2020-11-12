@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  /* font-family: "Courier New", Courier, monospace !important; */
+  font-size: larger !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* color: lightgrey !important; */
+  letter-spacing: 0.5px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+html {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.nav::-webkit-scrollbar,
+html::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
+
+.masterContainer {
+  position: absolute;
+  margin-top: 75px;
+  /* background-color: black; */
+  height: 100%;
+  width: 100%;
+  /* color: lightgrey; */
+}
+
+.mainContainer {
+}
+
+.nav {
+  position: fixed;
+  height: 100vh;
+  top: 0;
+  overflow-y: scroll;
+  padding-top: 100px;
+  /* border-right: 1px solid rgb(128, 128, 128, 0.5); */
+  width: 275px !important;
+  padding-left: 50px !important;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: lightgrey;
+}
+
+.nav h3 {
+  font-weight: bold;
+}
+
+hr {
+  border-top: 1px solid rgb(128, 128, 128, 0.25) !important;
+}
+
+.nav p:hover,
+h4:hover,
+h5:hover {
+  cursor: pointer;
+  font-style: oblique;
+  text-decoration: underline;
+  font-weight: bold;
+  color: rgb(140, 20, 20);
+}
+
+.nav p {
+  padding-left: 15px;
+}
+
+.displayContainer {
+  border: 1px dashed white;
+  height: 100%;
+}
+
+.jumbotron {
+  /* margin-left: 14vw; */
+  width: 100%;
+}
+
+.jumbotron h1 {
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: black;
+}
+
+.jumbotron p {
+  color: lightgrey;
+  font-style: italic;
+}
+
+.navBar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  box-shadow: 0px 10px 10px rgb(0, 0, 0, 0.5);
+  background-color: black;
+  border-bottom: 1px solid rgb(100, 20, 20, 0.5);
+}
+
+nav a {
+  color: rgb(130, 15, 10);
+  font-weight: bold;
+}
+
+.navbar-brand:hover {
+  color: rgb(130, 15, 10);
+  font-weight: bold;
+  cursor: default;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  font-style: oblique;
+  text-decoration: underline;
+  font-weight: bold;
+  color: white;
+}
+
+.contentContainer {
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.contentContainer h3 {
+  color: black;
+  font-weight: bold;
+}
+
+.contentContainer p {
+  /* font-style: oblique; */
+  letter-spacing: 0.8px;
+}
+
+.crimsonColorBackground {
+  background-color: rgb(130, 15, 10) !important;
+}
+
+.crimsonColorText {
+  color: rgb(130, 15, 10) !important;
+}
+
+.courierNewFont {
+  font-family: "Courier New", Courier, monospace !important;
+}
