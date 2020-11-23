@@ -174,7 +174,7 @@ function Dragons() {
           <br />
           <hr />
           <p>
-            <i>Author(s): theMagnificentJay and PapidaPumkin</i>
+            <i>Author(s): theMagnificentJay and PapidaPumpkin</i>
           </p>
         </div>
       </div>

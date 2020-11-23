@@ -12,14 +12,18 @@ function Umbra() {
           </h5>
           <hr />
           <p>
-            <b>Forge of the Hellknights, Warriors of the Eternally Damned:</b>
-            <br />
-            <br />
+            <h5 className="courierNewFont">
+              <b>Forge of the Hellknights, Warriors of the Eternally Damned:</b>
+            </h5>
+          </p>
+
+          <p>
             Umbrae, freshly exiled to hell walks its emblazoned ash wasteland
             pondering. Shook to her core and angered for being shunned, walked
             as she thought - then she spoke.
-            <br />
-            <br />
+          </p>
+
+          <p className="pIndent">
             <i>
               “My father, he who hath damned me to this exile, does not know
               that his transgressions of my creation are the very evil that lies
@@ -32,52 +36,50 @@ function Umbra() {
               return the favor by damning you to this wasteland. I am the warden
               of the damned and damned - will - be upon you!”
             </i>
-            <br />
-            <br />
+          </p>
+          <p>
             She screams her inner monologue at the absence of a sky above. The
             lifeless hellscape begins to mold at the tremble of her power.
             Mountains erupt rushing toward the void above, and a citadel made of
             obsidian appears, Umbrae then walks towards this citadel, admiring
             its daunting malevolence and seats herself upon the blackened
             throne.
-            <br />
-            <br />
-            She utters a single phrase as she sits.
-            <br />
-            <br />
+          </p>
+          <p>She utters a single phrase as she sits.</p>
+          <p className="pIndent">
             <i>
               “Henceforth from my prison I await, ready to arise from my exile
               and take what is mine.”
             </i>
-            <br />
-            <br />
+          </p>
+          <p>
             Continuing on she harnesses the power of creation and calls forth a
             new being from her seance.
-            <br />
-            <br />
+          </p>
+          <p className="pIndent">
             <i>
               “I breathe life unto the herald of sin, my own creation, my
               legionare to lead an army. Dubbed in my name ‘Sin conqueror of
               Mortals, Commander of the Damned.’ ”
             </i>
-            <br />
-            <br />
+          </p>
+          <p>
             Beneath her throne from the fabric of her creation rose the deity
             she created. Their body chiseled like a warrior, their skin stained
             of ash, their eyes emblazoned with hellfire, they rested kneeling to
             their new queen.
-            <br />
-            <br />
+          </p>
+          <p className="pIndent">
             <i>
               “My lady, I am thankful for your call, I kneel here humbly
               awaiting your command.”
             </i>
-            <br />
-            <br />
+          </p>
+          <p>
             Leaned back in her throne, her hand rests her head, she utters her
             command, short but not without weight.
-            <br />
-            <br />
+          </p>
+          <p className="pIndent">
             <i>
               “I task you - Sin, Conqueror of Mortals, Commander of the Damned -
               to create an army of the damned. You will train them to be
@@ -87,16 +89,17 @@ function Umbra() {
               King, and from there they will swear their allegiance only to me,
               their new God… Now go!”
             </i>
-            <br />
-            <br />
-            Sin responds with a stoic and respectable voice.
-            <br />
-            <br />
+          </p>
+          <p>Sin responds with a stoic and respectable voice.</p>
+          <p className="pIndent">
             <i>“Very well… My queen.”</i>
+          </p>
+          <p>
             Then he vanishes, tasked with creating a new legion of Hellknights.
             Umbrae forges a devilish smile as she looks up to the void, almost
             as if she knew her father was watching.
           </p>
+
           <br />
           <hr />
           <p>

@@ -74,6 +74,17 @@ hr {
   padding-left: 15px;
 }
 
+.pIndent {
+  margin-left: 10px;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  border-left: 4px solid rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 0px 5px 5px 0px;
+}
+
 .displayContainer {
   border: 1px dashed white;
   height: 100%;
@@ -151,4 +162,32 @@ nav a {
 
 .courierNewFont {
   font-family: "Courier New", Courier, monospace !important;
+}
+
+.flexCards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.flexCards div {
+  width: 500px;
+  margin: 10px auto;
+}
+
+.tableCards p {
+  margin: 10px auto;
+}
+
+.tableHouses {
+  margin: 10px;
+  /* border: 1px solid rgb(0, 0, 0, 0.25); */
+}
+
+.tableHouses th,
+.tableHouses td {
+  padding: 10px;
+  border-top: 1px solid rgb(0, 0, 0, 0.05);
+  border-bottom: 1px solid rgb(0, 0, 0, 0.05);
 }

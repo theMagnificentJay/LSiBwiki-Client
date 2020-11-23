@@ -18,6 +18,7 @@ import ImmortalLineage from "./Modules/ImmortalLineage";
 import Present from "./Modules/Present";
 import World from "./Modules/World";
 import Umbra from "./Modules/Umbra";
+import ImmortalEmpire from "./Modules/ImmortalEmpire";
 
 function App() {
   return (
@@ -87,7 +88,7 @@ function App() {
             <Link to="/">
               <p>Nelfin Matriarchy</p>
             </Link>
-            <Link to="/">
+            <Link to="/ImmortalEmpire">
               <p>The Immortal Empire</p>
             </Link>
             <Link to="/">
@@ -185,7 +186,9 @@ function App() {
             <Route path="/Umbra">
               <Umbra />
             </Route>
-            <Route path="/"></Route>
+            <Route path="/ImmortalEmpire">
+              <ImmortalEmpire />
+            </Route>
             <Route path="/"></Route>
             <Route path="/"></Route>
             <Route path="/"></Route>
