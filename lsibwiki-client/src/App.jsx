@@ -5,11 +5,11 @@ import {
   Switch,
   Route,
   Link,
-  Redirect,
+  // Redirect,
 } from "react-router-dom";
 
 import Navbar from "./Modules/Navbar";
-import Content from "./Modules/Content";
+// import Content from "./Modules/Content";
 import Home from "./Modules/Home";
 import Emergence from "./Modules/Emergence";
 import Acolytes from "./Modules/Acolytes";
@@ -17,6 +17,7 @@ import Dragons from "./Modules/Dragons";
 import ImmortalLineage from "./Modules/ImmortalLineage";
 import Present from "./Modules/Present";
 import World from "./Modules/World";
+import Umbra from "./Modules/Umbra";
 
 function App() {
   return (
@@ -56,15 +57,33 @@ function App() {
                 Present
               </Link>
             </p>
+
             <br />
             <h4>Geography</h4>
             <hr />
+
             <Link to="/World">
               <p>World</p>
             </Link>
+
+            <br />
+            <h4>Prominent Figures</h4>
+            <hr />
+
+            <Link to="/Umbra" className="navLink">
+              <p>Acolyte of Umbra</p>
+            </Link>
+            <Link to="/">
+              <p>Acolyte of Penumbra</p>
+            </Link>
+            <Link to="/">
+              <p>Acolyte of Antumbra</p>
+            </Link>
+
             <br />
             <h4>Nations</h4>
             <hr />
+
             <Link to="/">
               <p>Nelfin Matriarchy</p>
             </Link>
@@ -93,6 +112,7 @@ function App() {
             <br />
             <h4 className="navLink">Races</h4>
             <hr />
+
             <Link to="/">
               <p className="navLink">Human</p>
             </Link>
@@ -140,8 +160,6 @@ function App() {
             </div>
           </Jumbotron>
 
-          {/* <Content /> */}
-
           <Switch>
             <Route exact path="/">
               <Home />
@@ -164,7 +182,9 @@ function App() {
             <Route path="/World">
               <World />
             </Route>
-            <Route path="/"></Route>
+            <Route path="/Umbra">
+              <Umbra />
+            </Route>
             <Route path="/"></Route>
             <Route path="/"></Route>
             <Route path="/"></Route>
