@@ -13,6 +13,7 @@ import HouseDefault from "./InnerModules/HouseDefault";
 
 import HouseSuns from "./InnerModules/HouseSuns";
 import HouseLegionnaires from "./InnerModules/HouseLegionnaires";
+import HouseLamoves from "./InnerModules/HouseLamoves";
 
 function ImmortalEmpire() {
   return (
@@ -44,8 +45,10 @@ function ImmortalEmpire() {
             <div className="flexCards">
               <div className="card">
                 <div className="card-body">
-                  <h5 className="card-title">House Suns</h5>
-                  <h6 className="card-subtitle mb-2 text-muted">subtitle</h6>
+                  <h5 className="card-title courierNewFont bold">House Suns</h5>
+                  <h6 className="card-subtitle mb-2 text-muted courierNewFont oblique">
+                    Beacons of Freedom
+                  </h6>
                   <p className="card-text">
                     This adolescent family is new to the Immortal Empires
                     political scene, only having secured a title 7 years ago.
@@ -56,47 +59,88 @@ function ImmortalEmpire() {
                     ushered into the role of matriarch and is the present leader
                     of House Suns.
                   </p>
-                  <Link to="/HouseSuns">Info</Link>
+                  <Link to="/HouseSuns">Further Reading</Link>
                 </div>
               </div>
               <div className="card">
                 <div className="card-body">
-                  <h5 className="card-title">House Legionares</h5>
-                  <h6 className="card-subtitle mb-2 text-muted">subtitle</h6>
-                  <p className="card-text">text</p>
-                  <Link to="/HouseLegionares">Info</Link>
+                  <h5 className="card-title courierNewFont bold">
+                    House Legionares
+                  </h5>
+                  <h6 className="card-subtitle mb-2 text-muted courierNewFont oblique">
+                    Swords of the Lion
+                  </h6>
+                  <p className="card-text">
+                    Known as the noble family of the lion, these members are
+                    typically highly involved in war time politics. Most of
+                    their members are paladins and trust and loyalty are held
+                    above all else. Led by their Patriarch Maximillian
+                    Legionnaires. Maximilian served faithfully with the Leonem
+                    Gladii (Swords of the Lion), a sect of paladins in Sanguinem
+                    and for a while were the personal guards of the Emperor.
+                    Maximilian was seen supporting Montachade early on in his
+                    career as House Legionnaires holds the values House Suns of
+                    racial equality and his progressive legislature.
+                  </p>
+                  <Link to="/HouseLegionares">Further Reading</Link>
                 </div>
               </div>
               <div className="card">
                 <div className="card-body">
-                  <h5 className="card-title">House Lamoves</h5>
-                  <h6 className="card-subtitle mb-2 text-muted">subtitle</h6>
-                  <p className="card-text">text</p>
-                  <Link to="/HouseLamoves">Info</Link>
+                  <h5 className="card-title courierNewFont bold">
+                    House Lamoves
+                  </h5>
+                  <h6 className="card-subtitle mb-2 text-muted courierNewFont oblique">
+                    The Elders
+                  </h6>
+                  <p className="card-text">
+                    An elder in the political scene, house Lamoves is led by
+                    patriarch Malaqar Lamoves. Malaqar Lamoves has two sons and
+                    a wife. The family has been a long and close ally to House
+                    Suns. Malaqar Lamoves having been on the campaigning trip
+                    with Montachade Suns, also believes House Abollards to be
+                    the cause of the Patriarchs assassination. House Lamoves is
+                    made of mostly human family members, however they have
+                    vocalized their support for Nelfin influence and policies
+                    through the Empire.
+                  </p>
+                  <Link to="/HouseLamoves">Further Reading</Link>
                 </div>
               </div>
               <div className="card">
                 <div className="card-body">
-                  <h5 className="card-title">House Bemonts</h5>
-                  <h6 className="card-subtitle mb-2 text-muted">subtitle</h6>
+                  <h5 className="card-title courierNewFont bold">
+                    House Bemonts
+                  </h5>
+                  <h6 className="card-subtitle mb-2 text-muted courierNewFont oblique">
+                    subtitle
+                  </h6>
                   <p className="card-text">text</p>
-                  <Link to="/HouseBemonts">Info</Link>
+                  <Link to="/HouseBemonts">Further Reading</Link>
                 </div>
               </div>
               <div className="card">
                 <div className="card-body">
-                  <h5 className="card-title">House Alberes</h5>
-                  <h6 className="card-subtitle mb-2 text-muted">subtitle</h6>
+                  <h5 className="card-title courierNewFont bold">
+                    House Alberes
+                  </h5>
+                  <h6 className="card-subtitle mb-2 text-muted courierNewFont oblique">
+                    subtitle
+                  </h6>
                   <p className="card-text">text</p>
-                  <Link to="/HouseAlberes">Info</Link>
+                  <Link to="/HouseAlberes">Further Reading</Link>
                 </div>
               </div>
               <div className="card">
                 <div className="card-body">
-                  <h5 className="card-title">House Abollards</h5>
-                  <h6 className="card-subtitle mb-2 text-muted">subtitle</h6>
+                  <h5 className="card-title courierNewFont bold">
+                    House Abollards
+                  </h5>
+                  <h6 className="card-subtitle mb-2 text-muted courierNewFont oblique">
+                    subtitle
+                  </h6>
                   <p className="card-text">text</p>
-                  <Link to="/HouseAbollards">Info</Link>
+                  <Link to="/HouseAbollards">Further Reading</Link>
                 </div>
               </div>
             </div>
@@ -110,7 +154,7 @@ function ImmortalEmpire() {
                 <HouseLegionnaires />
               </Route>
               <Route path="/HouseLamoves">
-                <HouseDefault />
+                <HouseLamoves />
               </Route>
               <Route path="/HouseBemonts">
                 <HouseDefault />
