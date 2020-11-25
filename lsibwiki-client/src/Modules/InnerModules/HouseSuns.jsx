@@ -71,6 +71,22 @@ function HouseSuns() {
                   House Suns following his death.
                 </td>
               </tr>
+              <tr>
+                <td>Leia Suns</td>
+                <td>
+                  Sister of Keta, youngest daughter of Montachade Suns, and
+                  foreign policy advisor of House Suns.
+                </td>
+              </tr>
+              <tr>
+                <td>Fainved Suns</td>
+                <td>
+                  Adopted son of Montachade, and half Drow. Somewhat unmotivated
+                  in the political scene and serves more as a loyal commander
+                  and knight to Keta Suns and Leia Suns. Is beloved by both
+                  sisters, but keeps mostly reserved.
+                </td>
+              </tr>
             </table>
           </div>
           <br />

@@ -8,7 +8,11 @@ import {
   // Redirect,
 } from "react-router-dom";
 
+//Testing House Default
+import HouseDefault from "./InnerModules/HouseDefault";
+
 import HouseSuns from "./InnerModules/HouseSuns";
+import HouseLegionnaires from "./InnerModules/HouseLegionnaires";
 
 function ImmortalEmpire() {
   return (
@@ -42,7 +46,16 @@ function ImmortalEmpire() {
                 <div className="card-body">
                   <h5 className="card-title">House Suns</h5>
                   <h6 className="card-subtitle mb-2 text-muted">subtitle</h6>
-                  <p className="card-text">text</p>
+                  <p className="card-text">
+                    This adolescent family is new to the Immortal Empires
+                    political scene, only having secured a title 7 years ago.
+                    They aspire for wealth and power, however with the death of
+                    Montachade, the previous patriarch, they have been
+                    handicapped with political strife and interior conflict.
+                    Keta Suns, the eldest daughter of Montachade Suns, was
+                    ushered into the role of matriarch and is the present leader
+                    of House Suns.
+                  </p>
                   <Link to="/HouseSuns">Info</Link>
                 </div>
               </div>
@@ -93,11 +106,21 @@ function ImmortalEmpire() {
               <Route path="/HouseSuns">
                 <HouseSuns />
               </Route>
-              <Route path="/HouseLegionares"></Route>
-              <Route path="/HouseLamoves"></Route>
-              <Route path="/HouseBemonts"></Route>
-              <Route path="/HouseAlberes"></Route>
-              <Route path="/HouseAbollards"></Route>
+              <Route path="/HouseLegionares">
+                <HouseLegionnaires />
+              </Route>
+              <Route path="/HouseLamoves">
+                <HouseDefault />
+              </Route>
+              <Route path="/HouseBemonts">
+                <HouseDefault />
+              </Route>
+              <Route path="/HouseAlberes">
+                <HouseDefault />
+              </Route>
+              <Route path="/HouseAbollards">
+                <HouseDefault />
+              </Route>
             </Switch>
           </div>
           <br />
