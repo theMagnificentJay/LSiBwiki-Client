@@ -1,6 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
+import LoginModal from "./LoginModal";
 
-function App() {
+import { Collapse, NavbarToggler, Nav, Button } from "reactstrap";
+
+const App = (props) => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => setIsOpen(!isOpen);
   return (
     <div className="navBar">
       <nav class="navbar navbar-expand-lg">
@@ -35,11 +41,21 @@ function App() {
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
               Search
             </button>
+            <NavbarToggler onClick={toggle} />
+            <Collapse isOpen={isOpen} navbar>
+              <Nav className="ml-auto" navbar style={{ paddingLeft: "10px" }}>
+                {props.token ? (
+                  <Button onClick={props.clearToken}>Logout</Button>
+                ) : (
+                  <LoginModal updateToken={props.updateToken} />
+                )}
+              </Nav>
+            </Collapse>
           </form>
         </div>
       </nav>
     </div>
   );
-}
+};
 
 export default App;

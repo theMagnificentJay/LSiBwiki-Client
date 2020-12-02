@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Container, Jumbotron } from "reactstrap";
 import {
   BrowserRouter as Router,
@@ -21,9 +21,26 @@ import Umbra from "./Modules/Umbra";
 import ImmortalEmpire from "./Modules/ImmortalEmpire";
 
 function App() {
+  const [token, setToken] = useState("");
+
+  const updateToken = (newToken) => {
+    localStorage.setItem("token", newToken);
+    setToken(newToken);
+  };
+
+  const clearToken = () => {
+    localStorage.clear();
+    setToken("");
+  };
+
+  useEffect(() => {
+    setToken(localStorage.getItem("token"));
+    // console.log(token);
+  }, [token]);
+
   return (
     <Router className="masterContainer">
-      <Navbar />
+      <Navbar updateToken={updateToken} clearToken={clearToken} token={token} />
       <div className="mainContainer">
         <Container className="nav courierNewFont">
           <div className="innerNav">
